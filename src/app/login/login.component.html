@@ -1,0 +1,48 @@
+<div class='container'>
+	<div class="row">
+		<div class="col-6"></div>
+		<div class="col-6 text-right custom-img">
+		  <img src ='https://www.evalueserve.com/wp-content/themes/wpapp/assets/img/logo.png'  class='header-logo' style="padding-top: 20px; width: 40%">
+		</div>
+	</div>
+	<div class = 'row justify-content-center'>
+	<div class = 'card col-lg-6 p-4'>
+		<div class='row'>
+		<div class='col' >
+			<div class="input-group mb-3">
+
+			  
+			  <input type="text" class="form-control" name="Name" placeholder="Enter name..." [(ngModel)]="name" >
+			  <label style="color: red">{{msgErrorName}}</label>
+
+			  
+			</div>
+
+			<div class="input-group mb-3">
+
+				
+				<input type="text" class="form-control" name="empID" placeholder="Enter EmployeeID" [(ngModel)]="empId">
+				<label style="color: red">{{msgErrorEmpId}}</label>
+
+				
+			</div>
+			<div class="input-group mb-3" style="color: red">
+				{{msgError}}
+			</div>
+		</div>
+		
+		</div>
+		
+		<div class = "row">
+		<div class = "col-5"> </div>
+		<div class = "col-lg-3">
+		<button type="submit"
+					class="btn btn-success btn-flat m-b-30 m-t-30"
+					(click)="onSubmit()" >Sign in</button>
+				  </div>
+		</div>
+
+			 
+    </div>
+	</div>
+</div>

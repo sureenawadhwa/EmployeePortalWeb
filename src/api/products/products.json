@@ -1,0 +1,125 @@
+[
+  {
+    "productId": 1,
+    "productName": "Samosa",
+    "productCode": "Tuck-Shop",
+    "price": 20.00,
+    "imageUrl": "assets/images/Veg-Samosa.jpg"
+    
+  },
+  {
+    "productId": 2,
+    "productName": "Sandwich",
+    "productCode": "Tuck-Shop",
+  
+    "price": 30.00,
+  
+    "imageUrl": "assets/images/sandwich.jpg"
+  },
+  {
+    "productId": 3,
+    "productName": "Dhokla",
+    "productCode": "Tuck-Shop",
+    "price": 30.00,
+    "imageUrl": "assets/images/dhokla.jpg"
+  },
+  {
+    "productId": 4,
+    "productName": "Cream-roll",
+    "productCode": "Tuck-Shop",
+    "price": 20.00,
+    "imageUrl": "assets/images/cream-roll.jpg"
+  },
+  {
+    "productId": 5,
+    "productName": "Pasta",
+    "productCode": "Tuck-Shop",
+    "price": 30.00,
+    "imageUrl": "assets/images/pasta.jpg"
+  },
+  {
+    "productId": 6,
+    "productName": "Bread-Pakora",
+    "productCode": "Tuck-Shop",
+    "price": 20.00,
+    "imageUrl": "assets/images/breadpakora.jpg"
+  },
+  {
+    "productId": 7,
+    "productName": "Maggi",
+    "productCode": "Tuck-Shop",
+    "price": 20.00,
+    "imageUrl": "assets/images/Maggi.jpg"
+  },
+  {
+    "productId": 8,
+    "productName": "Hot-Dog",
+    "productCode": "Tuck-Shop",
+    "price": 30.00,
+    "imageUrl": "assets/images/hotdog.jpg"
+  },
+  {
+    "productId": 9,
+    "productName": "Kulcha",
+    "productCode": "Tuck-Shop",
+    "price": 30.00,
+    "imageUrl": "assets/images/kulcha.jpg"
+  },
+  {
+    "productId": 10,
+    "productName": "Macroni",
+    "productCode": "Tuck-Shop",
+    "price": 20.00,
+    "imageUrl": "assets/images/macroni.jpg"
+  },
+  {
+    "productId": 11,
+    "productName": "Poha",
+    "productCode": "Tuck-Shop",
+    "price": 30.00,
+    "imageUrl": "assets/images/poha.jpg"
+  },
+  {
+    "productId": 12,
+    "productName": "Drinks",
+    "productCode": "Tuck-Shop",
+    "price":20.00,
+    "imageUrl": "assets/images/drinks.jpg"
+  },
+  {
+    "productId": 13,
+    "productName": "Chips",
+    "productCode": "Tuck-Shop",
+    "price": 40.00,
+    "imageUrl": "assets/images/chips.jpg"
+  },
+  {
+    "productId": 14,
+    "productName": "Shakes",
+    "productCode": "Tuck-Shop",
+    "price": 20.00,
+    "imageUrl": "assets/images/shakes.jpg"
+  },
+  {
+    "productId": 15,
+    "productName": "Juices",
+    "productCode": "Tuck-Shop",
+    "price": 20.00,
+    "imageUrl": "assets/images/juices.jpg"
+  },
+  {
+    "productId": 16,
+    "productName": "Mini-Meal",
+    "productCode": "Meal",
+    "price": 40.00,
+    "imageUrl": "assets/images/minimeal.jpg"
+  },
+  {
+    "productId": 17,
+    "productName": "Buffet",
+    "productCode": "Meal",
+    "price": 60.00,
+    "imageUrl": "assets/images/buffet.jpg"
+  }
+
+]

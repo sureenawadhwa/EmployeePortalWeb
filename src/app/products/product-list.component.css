@@ -1,0 +1,40 @@
+thead {
+    color:#337Ab7;
+}
+
+.custom-img{
+    padding-top: 20px;
+}
+
+.nav-ele{
+    font-size: medium;
+}
+.field {
+    font-size: small;
+}
+#selectedTab{
+    background-color: antiquewhite;
+}
+
+/* .my-custom-scrollbar {
+    position: relative;
+    height: 550px;
+    overflow: auto;
+    }
+    .table-wrapper-scroll-y {
+    display: block;
+    }  */
+.title {
+    color: 	#707070;
+}
+.accordian {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  
+  float: right;
+  margin-left: 5px;
+
+}
+
+
+

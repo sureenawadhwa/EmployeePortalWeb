@@ -1,0 +1,29 @@
+<!--The whole content below can be removed with the new code.-->
+<div style="text-align:center">
+  <h1>
+     TADA !Welcome to {{title}}!!
+  </h1>
+  ... Starter Files ...
+  <div class="container">
+    <h1>
+      Angular 6 Forms
+    </h1>
+    <form [formGroup]="angularForm" novalidate>
+          <div class="form-group">
+              <label>Name:</label>
+              <input class="form-control" formControlName="name" type="text">
+          </div>
+          <div *ngIf="angularForm.controls['name'].invalid && (angularForm.controls['name'].dirty || angularForm.controls['name'].touched)" class="alert alert-danger">
+              <div *ngIf="angularForm.controls['name'].errors.required">
+                Name is required.
+              </div>
+          </div>
+          <button type="submit"
+              [disabled]="angularForm.pristine || angularForm.invalid" class="btn btn-success">
+              Save
+          </button>
+    </form>
+    <br />
+  </div>
+</div>
+

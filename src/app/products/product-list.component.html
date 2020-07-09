@@ -1,0 +1,121 @@
+<div class="container">
+    <div class="row header">
+      <div class="col-6 title"><br><h2>Employee Portal</h2></div>
+      <div class="col-6 text-right custom-img">
+      </div>
+    </div> <br>
+
+  <div class='card '>
+    <div class='card-header'>
+      <div class="row">
+        <div class="col-lg-4">
+            <div class="input-group">
+                <span class="input-group-addon glyphicon glyphicon-search"></span>
+                <input type="text" class="form-control"  placeholder="Search">
+              </div>
+
+        </div>
+        <div class="col-lg-6">
+
+        </div>
+        <div class="col-lg-2">
+            <button class="btn btn-link accordian" type="button" data-toggle="collapse" data-target="#collapseOne"
+            aria-expanded="true" aria-controls="collapseOne">
+            Advanced Search
+          </button>
+
+
+
+        </div>
+      </div>
+
+    </div>
+    <!--<div class='card-body' id="collapseOne" aria-labelledby="headingOne">
+      <div class='row'>
+
+        <div class="col-lg-4">
+
+          <div class="input-group mb-3">
+
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="inputGroup-sizing-default">Price</span>
+            </div>
+            <input type="text" class="form-control" name="enter_price" value="0" [(ngModel)]='Price'>
+            <div class="input-group-prepend">
+
+              <select class="custom-select" id="inputGroupSelect01" [(ngModel)]='priceCondtion'>
+                <option value="" >Select</option>
+                <option value="0" >Less Than</option>
+                <option value="1">Equal to</option>
+                <option value="2">Greater Than</option>
+              </select>
+            </div>
+            <label style="color: red">{{msgErrorPriceCondtion}}</label>
+
+          </div>
+        </div>
+
+        <div class="col-lg-3">
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <label class="input-group-text" for="inputGroupSelect01">Type</label>
+            </div>
+            <select class="custom-select" id="inputGroupSelect01" [(ngModel)]='foodType'>
+              <option value="">All</option>
+              <option *ngFor="let item of foodTypeOption" [value]="item.value">{{item.label}}</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="col-lg-3">
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="inputGroup-sizing-default">Food</span>
+            </div>
+            <input type="text" class="form-control" [(ngModel)]='filter.FoodName'>
+          </div>
+        </div>
+
+
+        <div class='col-lg-1'>
+          <button type="button" class="btn btn-outline-primary" (click) ="onSearch()">Search</button>
+        </div>
+      </div>
+      </div>
+
+  </div>-->
+
+  <div>
+  <table  class="table table-striped table-bordered table-sm fixed_header" cellspacing="0" width="200%">
+      <thead>
+        <tr>
+          <th style='font-size: medium' class="th-sm">Employee ID</th>
+          <th style='font-size: medium' class="th-sm">First Name</th>
+          <th style='font-size: medium' class="th-sm">Last Name</th>
+          <th style='font-size: medium' class="th-sm">Gender</th>
+          <th style='font-size: medium' class="th-sm">Department</th>
+          <th style='font-size: medium' class="th-sm">Date of Birth</th>
+
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td style="font-size: small">{{product.employeeId}}</td>
+            <td style="font-size: small">{{product.firstName}}</td>
+            <td style="font-size: small">{{product.lastName}}</td>
+            <td style="font-size: small">{{product.gender}}</td>
+            <td style="font-size: small">{{product.department}}</td>
+            <td style="font-size: small">{{product.dateOfBirth}}</td>
+        </tr>
+
+      </tbody>
+    </table>
+
+</div>
+
+
+
+
+</div>
+
+</div>
