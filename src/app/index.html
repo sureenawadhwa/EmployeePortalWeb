@@ -1,0 +1,90 @@
+<div class="container">
+
+
+  <div class="card mt-4">
+    <div class="card-header">
+      Add Employee
+    </div>
+    <div class="card-body">
+
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text">First Name</span>
+            </div>
+            <input type="text" class="form-control" [(ngModel)]='firstName'>
+          </div>
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text">Last Name</span>
+            </div>
+            <input type="text" class="form-control" [(ngModel)]='lastName'>
+          </div>
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text">Gender</span>
+            </div>
+            <select class="custom-select" [(ngModel)]='gender'>
+              <option value="MALE">Male</option>
+              <option value="FEMALE">Female</option>
+              <option value="OTHER">Other</option>
+            </select>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text">Department</span>
+            </div>
+            <input type="text" class="form-control" [(ngModel)]='department' required>
+          </div>
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text">Date Of Birth</span>
+            </div>
+            <input type="date" class="form-control" [(ngModel)]='dob'>
+          </div>
+
+          <button (click)='saveForm()' class="btn-success btn" ngbButton>submit</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class="row mt-5">
+    <table class="table table-hover table-bordered" cellspacing="0">
+      <thead>
+      <tr>
+        <th style='font-size: medium' class="th-sm">Employee ID</th>
+        <th style='font-size: medium' class="th-sm">First Name</th>
+        <th style='font-size: medium' class="th-sm">Last Name</th>
+        <th style='font-size: medium' class="th-sm">Gender</th>
+        <th style='font-size: medium' class="th-sm">Department</th>
+        <th style='font-size: medium' class="th-sm">Date of Birth</th>
+
+      </tr>
+      </thead>
+      <tbody>
+      <tr *ngFor='let employee of employeeList'>
+        <td style="font-size: small">{{employee.employeeId}}</td>
+        <td style="font-size: small">{{employee.firstName}}</td>
+        <td style="font-size: small">{{employee.lastName}}</td>
+        <td style="font-size: small">{{employee.gender | titlecase}}</td>
+        <td style="font-size: small">{{employee.department}}</td>
+        <td style="font-size: small">{{employee.dateOfBirth}}</td>
+      </tr>
+
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+
+
+
+
