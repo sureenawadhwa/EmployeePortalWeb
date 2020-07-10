@@ -11,6 +11,7 @@ The employee portal Web can be used to interact with the employee portal backend
 
 ## Run the project
 > npm install
+
 > ng serve
 
 Access the Portal on this link 
